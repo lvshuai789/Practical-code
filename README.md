@@ -32,7 +32,7 @@
 02_test.py包含代码片段:
 -----------
 
-1.与字典有关的计算问题(将下面的字典形式按照value值从大到小或者从小到大找出最大最小的(key,value)<使用到了lambda函数>)
+1. 与字典有关的计算问题(将下面的字典形式按照value值从大到小或者从小到大找出最大最小的(key,value)<使用到了lambda函数>)
      prices = {
          "ACME":45.23,
          "APPL":612.78,
@@ -45,9 +45,9 @@
 
 3. 从序列/字典中移除重复项元素并且保持元素间的顺序不变<e.g alist = [1,5,2,1,9,1,5,10] / [{"x":1,"y":2},{"x":1,"y":3},{"x":1,"y":2},{"x":2,"y":4}]:可用于删除列表中元素值相同的字典>
 
-4and5. 对切片命名(slice方法和indices方法)
+4 and5. 对切片命名(slice方法和indices方法)
 
-6.找出序列中出现的元素次数最多的元素(from collections import Counter/Counter类的使用)
+6. 找出序列中出现的元素次数最多的元素(from collections import Counter/Counter类的使用)
 
 
 
