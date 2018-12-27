@@ -48,10 +48,3 @@
 4. /5. 对切片命名(slice方法和indices方法)
 
 6. 找出序列中出现的元素次数最多的元素(from collections import Counter/Counter类的使用)
-
-
-
-
-
-[http://example.net/](http://example.net/) has no title attribute
-
