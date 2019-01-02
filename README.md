@@ -48,3 +48,15 @@
 4. /5. 对切片命名(slice方法和indices方法)
 
 6. 找出序列中出现的元素次数最多的元素(from collections import Counter/Counter类的使用)
+
+
+
+03_test.py包含代码片段:
+-----------
+1.通过公共键对字典列表进行排序 (operator中的itemgetter类并且性能比较高)
+
+2.对不原生支持比较操作的对象排序(类的实例)
+
+3.根据字段将记录分组(groupby和defaultdict)
+
+4.筛选序列中的元素(列表生成式以及将一个序列的筛选结果施加到另外一个相关的序列上)
