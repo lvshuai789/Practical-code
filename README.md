@@ -66,8 +66,21 @@
 04_test.py包含代码片段:
 -----------
 
-1.将名称映射到序列的元素
+1.将名称映射到序列的元素<from collections import namedtuple>
 
   我们可以通过collections.namedtuple()方法返回一个python标准元组类型的子类。  
   可以给他提供一个类型名称和相应的字段,它可以返回一个实例化的类,为你已经定义好的字段传入值
+  
+  
+05_test.py包含代码片段:
+-----------
 
+1.将多个映射合并成单个映射<from collections import ChainMap>
+     
+2.字符串操作(split,startswith,endswith)
+
+3.利用shell通配符做字符串的匹配(类似于在linux下方的正则通配符匹配操作)<fnmatch fnmatchcase>
+     
+4.文本模式的匹配和查找(re,match,findall,compile<预先编译>)
+
+5.查找和替换文本(sub()方法,month_addr方法,subn()方法)
