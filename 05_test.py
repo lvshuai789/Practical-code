@@ -115,7 +115,7 @@ result3 = url.startswith(tuple(chioces))
 print("result3=")
 
 
-#### 利用shell通配符做字符串的匹配(类似于在linux下方的正则通配符匹配操作)<fnmatch fnmatchcase>
+#### 3.利用shell通配符做字符串的匹配(类似于在linux下方的正则通配符匹配操作)<fnmatch fnmatchcase>
 from fnmatch import fnmatch,fnmatchcase
 names = ['Dat1.csv','Dat2.csv','config.ini','foo.py']
 up_list = [ name for name in names if fnmatch(name,'Dat*.csv')]
@@ -139,7 +139,7 @@ ST_list = [addr for addr in addresses if fnmatchcase(addr,'* ST')]
 print('ST_list = %s'%ST_list)
 
 
-#### 3.文本模式的匹配和查找
+#### 4.文本模式的匹配和查找
 text = 'yeah, but no,but yeah,but no,but yeah'
 text1 = '11/27/2017'
 if re.match(r'\d+/\d+/\d+',text1):
@@ -179,7 +179,7 @@ for m in datepat.finditer(tt):
 
 #### 以上操作采用先将模式编译,然后再重复使用
 
-#### 4.查找和替换文本
+#### 5.查找和替换文本
 # str.replace()
 text = 'yeah, but no, but yeah, but no, but yeah'
 print(text.replace('yeah','yep'))
